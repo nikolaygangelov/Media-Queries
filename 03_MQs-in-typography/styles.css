@@ -1,0 +1,106 @@
+div.page {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.page header {
+    border-bottom: 2px solid rgb(0,0,0);
+    width: 100%;
+}
+
+body {
+    background-color: rgb(238, 238, 238);
+    padding: 0rem 20.9rem;
+}
+
+img {
+    background-color: rgb(255, 255, 255);
+}
+
+blockquote {
+    font-family: Georgia, serif;
+    border-left: 2px solid gray;
+    font-style: italic;
+    padding-left: 2rem;
+    color: gray;
+}
+
+h1, h2 {
+    font-family: Georgia, serif;
+}
+
+.img1 {
+    float: right;
+    margin-left: 20px;
+    margin-top: 5px;
+    margin-bottom: 13px;
+    padding: 0.35rem;
+    border: 0.2rem solid #000;
+    width: 12%;
+    height: 12%;
+}
+
+.img2 {
+    float: left;
+    padding: 0.35rem;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+    border: 0.2rem solid #000;
+    width: 10%;
+    height: 5%;
+}
+
+article {
+    display: flex;
+    
+}
+
+blockquote > p {
+    text-align: right;
+}
+
+article > p {
+    width: 170%;
+}
+
+h2 {
+    margin-top: 3rem;
+}
+
+@media (max-width: 499px) {
+    body {
+        font-size: 12px;
+    }
+}
+
+
+@media (min-width: 500px) and (max-width: 600px) {
+    body {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 800px) {
+    body {
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 801px) and (max-width: 1300px) {
+    body {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 1301px) and (max-width: 1800px) {
+    body {
+        font-size: 21px;
+    }
+}
+
+@media (min-width: 1801px) {
+    body {
+        font-size: 23px;
+    }
+}
