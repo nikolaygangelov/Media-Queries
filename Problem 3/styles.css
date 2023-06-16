@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font: inherit;
+    max-width: 1800px;
+    max-height: 1000px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    background-image: url(./image/fitness-main.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+header {
+    display: flex;
+    flex-basis: 100%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: red;
+}
+
+.phone {
+    margin-left: 3em;
+}
+
+.socials {
+    margin-right: 3em;
+}
+
+
+.socials li {
+    text-decoration: none;
+    display: inline-block;
+    list-style: none;
+}
+
+svg {
+    fill: white;
+}
+
+span {
+    color: white;
+}
+
+nav {
+    align-self: flex-end;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    font-size: 14px;
+}
+
+nav li a {
+    text-decoration: none;
+    margin: 1em 2em;
+    color: white;
+}
+
+h1 {
+    letter-spacing: 2px;
+}
+
+.main p, h1, .main a {
+    color: white;
+    text-align:  center;
+    text-decoration: none;
+}
+
+.section-welcome, .section-coaches {
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+h2 {
+    flex-basis: 100%;
+    text-align: center;
+}
+
+div {
+    width: 33%;
+    
+}
+
+
+
+.symbols {
+    width: 10%;
+    height: auto;
+    
+}
+
+
+
+
